@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Inscrição para Evento de Tecnologia</title>
+  </head>
+  <body>
+    <!doctype html>
+
+    <html>
+      <head>
+        <title>Inscrição Evento Tech</title>
+      </head>
+
+      <body>
+        <h1>Inscrição - Evento de Tecnologia</h1>
+
+        <form>
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="nome"> Nome completo: </label>
+
+            <input
+              id="nome"
+              type="text"
+              name="nome"
+              placeholder="Digite seu nome"
+            />
+
+            <br /><br />
+
+            <label> Email: </label>
+
+            <input type="email" name="email" />
+
+            <br /><br />
+
+            <label> Data nascimento: </label>
+
+            <input type="date" name="data" />
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Perfil Profissional</legend>
+
+            <label> Área: </label>
+
+            <select name="area">
+              <option>Desenvolvimento</option>
+
+              <option>Banco de Dados</option>
+
+              <option>Redes</option>
+
+              <option>Segurança</option>
+            </select>
+
+            <br /><br />
+
+            <label> Experiência: </label>
+
+            <br />
+
+            <input type="radio" name="experiencia" />
+
+            Iniciante
+
+            <input type="radio" name="experiencia" />
+
+            Intermediário
+
+            <input type="radio" name="experiencia" />
+
+            Avançado
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Tecnologias de Interesse</legend>
+
+            <input type="checkbox" />
+
+            Java
+
+            <input type="checkbox" />
+
+            Python
+
+            <input type="checkbox" />
+
+            JavaScript
+
+            <input type="checkbox" />
+
+            Cloud Computing
+          </fieldset>
+
+          <br />
+
+          <label> Mensagem: </label>
+
+          <br />
+
+          <textarea rows="5" cols="40"></textarea>
+
+          <br /><br />
+
+          <button type="submit">Enviar inscrição</button>
+
+          <button type="reset">Limpar</button>
+        </form>
+      </body>
+    </html>
+  </body>
+</html>

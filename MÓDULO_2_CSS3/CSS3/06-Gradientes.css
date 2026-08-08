@@ -1,0 +1,9 @@
+/* Gradiente linear */
+.box {
+  background: linear-gradient(to right, red, yellow);
+}
+
+/* Gradiente radial */
+.circle {
+  background: radial-gradient(circle, blue, white);
+}

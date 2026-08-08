@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+  </head>
+  <body>
+    <label style="font-weight: bold">Exemplo Input com type="text"</label>
+    <br>
+    <label>Nome:</label>
+    <input type="text" name="nome" placeholder="Digite seu nome" />
+    <br>
+    
+    <hr>
+    <label style="font-weight: bold">Exemplo Input com type="email"</label>
+    <br />
+    <label>E-Mail:</label>
+    <input type="email"/>
+
+    <hr>
+    <label style="font-weight: bold">Exemplo Input com type="Password"</label>
+    <br />
+    <label>Senha:</label>
+    <input type="password"/>
+
+    <hr>
+    <label style="font-weight: bold">Exemplo Input com type="Number"</label>
+    <br />
+    <label>Números:</label>
+    <label>Números inteiros:</label>
+    <input type="number"/>
+    <br>
+    <label>Números 2 casas decimais:</label>
+    <input type="number" step="0.01"> <!--limita os números a duas casas decimais.-->
+    <br><label>Números qualquer decimais:</label>
+    <input type="number" step="any"> <!--aceita qualquer quantidade de casas decimais.-->
+    <inputmode="decimal"> <!--abre o teclado com a tecla de vírgula/ponto em celulares-->
+    <br>
+    <label>Data:</label>
+    <input type="date">
+    <br>
+    <label>Enviar Curriculo: </label>
+    <input type="file" name="curriculo">
+  </body>
+</html>
